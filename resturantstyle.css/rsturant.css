@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: red !important;
 }
 .hero-section .hero-container{
     width: 685.41px;
