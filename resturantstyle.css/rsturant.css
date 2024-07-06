@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.hero-section{
+    max-width: 1286px;
+    height: 615.73px;
+    background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .hero-container{
+    width: 685.41px;
+    height: 263.31px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .hero-container .sub-title{
+    font-size: 21.44px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 25.46px;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+.hero-section .hero-container .hero-container-heading {
+    font-size: 42.88px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 53.6px;
+    text-align: center;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+.hero-section .hero-container .hero-container-description{
+    font-size: 12.06px;
+    text-align: center;
+    line-height: 18.76px;
+    opacity: 0.7;
+    letter-spacing: 0;
+    font-weight: 500;
+    margin: 16px 0;
+    color: rgb(255, 255, 255);
+}
+.hero-section .hero-container .hero-btn{
+    border: none;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 14.7px 21.44px;
+    color: rgb(255, 255, 255);
+    font-size: 13.4px;
+    font-weight: 600;
+    line-height: 15.41px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 21.44px;
+    cursor: pointer;
+}
+/*----------
+Card Section
+------------*/
+.card-section{
+    max-width: 1286px;
+    height: 818.74px;
+}
+.card-section .card-container{
+    max-width: 884.4px;
+    height: 586.92px;
+    margin: 111.89px auto;
+    /* border: 1px dashed rgba(167, 153, 153, 0.63); */
+}
+.card-container .card-heading{
+    max-width: 462.97px;
+    height: 115.91px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-container .card-heading h4{
+    font-size: 32.16px;
+    line-height: 46.9px;
+    color: rgb(16, 16, 16);
+    font-weight: 700;
+    /* padding: 0px 213px; */
+}
+.card-container .card-heading p{
+    font-size: 16.8px;
+    line-height: 18.76px;
+    opacity: 0.6;
+    font-weight: 500;
+    color: rgb(16, 16, 16);
+    margin: 10.72px 0;
+}
+.card-section .products-card-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 16.08px;
+    margin-top: 32.16px;
+}
+.products-card-container .item-card{
+    max-width: 287.472px;
+    height: 351.75px;
+    display: flex;
+    flex-direction: column;
+    gap: 21.44px;
+    justify-content: center;
+    align-items: center;
+}
+.products-card-container .item-card .item-name{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 9.38px 21.44px;
+    color: rgb(16, 16, 16);
+    font-size: 16.08px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 18.76px;
+}
+.products-card-container .item-card h4{
+    font-size: 26.8px;
+    color: rgb(16, 16, 16);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 31.49px;
+}
+.products-card-container .item-card p{
+    font-size: 12.06px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+    letter-spacing: 0;
+}
+.products-card-container .item-card .pizza-image{
+    max-width: 284.08px;
+    height: 189.61px;
+}
+.products-card-container .item-card .pizza-image img{
+    width: 100%;
+}
+.card-section .card-container .btn-container{
+    text-align: center;
+}
+.card-section .card-container .btn-container .card-btn{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    padding: 14px 21px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15.41px;
+    margin-top: 31.88px;
+    cursor: pointer;
+}
+/*
+About Section
+*/
+.about-section{
+    max-width: 1286px;
+    height: 450px;
+}
+.about-section .about-container{
+    max-width: 1286px;
+    height: 450px;
+}
+
+.about-section .about-container{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.about-section .about-container .about-image{
+    max-width: 50%;
+}
+.about-section .about-container .about-image img{
+    width: 100%;
+}
+.about-section .about-container .about-description{
+    max-width:50%;
+}
+.about-section .about-container .about-description .about-content{
+    max-width: 556px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section .about-container .about-description .about-content h4{
+    font-size: 32.16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 42.88px;
+    color: rgb(16, 16, 16);
+    margin: 16px 0
+}
+.about-section .about-container .about-description .about-content p{
+    font-size: 16px;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 16px 0;
+    
+}
+.about-section .about-container .about-description .about-content .follow-btn{
+    width: 100%;
+    height: 66.33px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin: 32px 0;
+}
+.about-section .about-container .about-description .about-content .follow-btn p{
+    color: rgb(16, 16, 16);
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+    opacity: 0.7;
+}
+.about-section .about-container .about-description .about-content .icon{
+    width: 175px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-section .about-container .about-description .about-content .icon .fb{
+    color: #06b4ff;
+    font-size: 26px;
+    
+}
+.about-section .about-container .about-description .about-content .icon .x{
+    font-size: 26px;
+    color: #000000;
+}
+.about-section .about-container .about-description .about-content .icon .ig{
+    font-size: 26px;
+    color: #bf3345;;
+}
+.about-section .about-container .about-description .about-content .icon .pin{
+    font-size: 26px;
+    color: #E13138;
+}
+/*
+More About info Section
+*/
+.more-about-info{
+    max-width: 1286px;
+    height: 450px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)),url(../assets/social-bg.png);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-about-info .about-description .about-content h4{
+    font-size: 32.16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 42.88px;
+    color: rgb(16, 16, 16);
+    margin: 16px 0
+}
+.more-about-info .about-description .about-content p{
+    font-size: 16px;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 16px 0;
+    text-align: center;
+}
+.more-about-info .about-description .about-content .follow-btn{
+    width: 100%;
+    height: 66.33px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin: 32px 0;
+}
+.more-about-info .about-description .about-content .follow-btn p{
+    color: rgb(16, 16, 16);
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+    opacity: 0.7;
+}
+.more-about-info .about-description .about-content .icon{
+    width: 175px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.more-about-info .about-description .about-content .icon .fb{
+    color: #06b4ff;
+    font-size: 26px;
+    
+}
+.more-about-info .about-description .about-content .icon .x{
+    font-size: 26px;
+    color: #000000;
+}
+.more-about-info .about-description .about-content .icon .ig{
+    font-size: 26px;
+    color: #bf3345;;
+}
+.more-about-info .about-description .about-content .icon .pin{
+    font-size: 26px;
+    color: #E13138;
+}
